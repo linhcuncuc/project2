@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vcounter1
+Z1 !s100 2V>E43FcWdNFdBo7==Oh83
+Z2 I[jIBX<d9i]MFi^DW8>nN^2
+Z3 Vbk>W^OBE]hkJR10Me=A?50
+Z4 dC:\Users\Hi\Desktop\linh.dm\FPGA\counter_w3
+Z5 w1553603555
+Z6 8C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1.v
+Z7 FC:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1553604316.651000
+Z12 !s107 C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1.v|
+!s101 -O0
+vtb_counter1
+!i10b 1
+Z13 !s100 X<F5PUdSdkEL105H37jaa1
+Z14 I81AeF:S5:CoI?ofXoCmjN3
+Z15 VBOkzCOTN10AO_:^W;TjhA3
+R4
+Z16 w1553601878
+Z17 8C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/tb_counter1.v
+Z18 FC:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/tb_counter1.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1553604316.801000
+!s107 C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/tb_counter1.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/tb_counter1.v|
+!s101 -O0
+R10

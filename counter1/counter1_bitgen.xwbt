@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Hi\Desktop\linh.dm\FPGA\counter_w3\counter1\counter1.ncd
+OUTFILE=C:\Users\Hi\Desktop\linh.dm\FPGA\counter_w3\counter1\counter1.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\Hi\Desktop\linh.dm\FPGA\counter_w3\counter1
+LICENSE=WebPack
+USER_INFO=__0_0_0

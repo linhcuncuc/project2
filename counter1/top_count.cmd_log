@@ -1,0 +1,70 @@
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg324-3 top_count.ngc top_count.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/top_count.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 top_count.ngc top_count.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_count_map.ncd top_count.ngd top_count.pcf 
+par -w -intstyle ise -ol high -mt off top_count_map.ncd top_count.ncd top_count.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_count.twx top_count.ncd -o top_count.twr top_count.pcf 
+bitgen -intstyle ise -f top_count.ut top_count.ncd 

@@ -1,0 +1,15 @@
+C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1.v {1 {vlog -work work C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter1
+
+Top level modules:
+	counter1
+
+} {} {}} C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/tb_counter1.v {1 {vlog -work work C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/tb_counter1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_counter1
+
+Top level modules:
+	tb_counter1
+
+} {} {}}

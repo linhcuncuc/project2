@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg225-3 counter1.ngc counter1.ngd  
+map -intstyle ise -p xa6slx16-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg225-3 counter1.ngc counter1.ngd  
+map -intstyle ise -p xa6slx16-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg225-3 counter1.ngc counter1.ngd  
+map -intstyle ise -p xa6slx16-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg324-3 counter1.ngc counter1.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+par -w -intstyle ise -ol high -mt off counter1_map.ncd counter1.ncd counter1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml counter1.twx counter1.ncd -o counter1.twr counter1.pcf 
+bitgen -intstyle ise -f counter1.ut counter1.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg324-3 counter1.ngc counter1.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+par -w -intstyle ise -ol high -mt off counter1_map.ncd counter1.ncd counter1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml counter1.twx counter1.ncd -o counter1.twr counter1.pcf 
+bitgen -intstyle ise -f counter1.ut counter1.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 counter1.ngc counter1.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+par -w -intstyle ise -ol high -mt off counter1_map.ncd counter1.ncd counter1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter1.twx counter1.ncd -o counter1.twr counter1.pcf 
+bitgen -intstyle ise -f counter1.ut counter1.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 counter1.ngc counter1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 counter1.ngc counter1.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+par -w -intstyle ise -ol high -mt off counter1_map.ncd counter1.ncd counter1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter1.twx counter1.ncd -o counter1.twr counter1.pcf 
+bitgen -intstyle ise -f counter1.ut counter1.ncd 
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 counter1.ngc counter1.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+par -w -intstyle ise -ol high -mt off counter1_map.ncd counter1.ncd counter1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter1.twx counter1.ncd -o counter1.twr counter1.pcf 
+bitgen -intstyle ise -f counter1.ut counter1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xc6slx16-csg324-2 counter1.ngc counter1.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter1_map.ncd counter1.ngd counter1.pcf 
+par -w -intstyle ise -ol high -mt off counter1_map.ncd counter1.ncd counter1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter1.twx counter1.ncd -o counter1.twr counter1.pcf 
+bitgen -intstyle ise -f counter1.ut counter1.ncd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/tb_counter1_isim_beh.exe" -prj "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/tb_counter1_beh.prj" "work.tb_counter1" "work.glbl" 

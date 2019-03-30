@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/tb_counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/tb_counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg225-3 tb_counter1.ngc tb_counter1.ngd  
+xst -intstyle ise -ifn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/tb_counter1.xst" -ofn "C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/counter1/tb_counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg225-3 tb_counter1.ngc tb_counter1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Hi/Desktop/linh.dm/FPGA/counter_w3/Nexys3_master.ucf -p xa6slx16-csg225-3 tb_counter1.ngc tb_counter1.ngd  
